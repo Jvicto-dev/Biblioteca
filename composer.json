@@ -1,0 +1,24 @@
+{
+    "name": "joao/www",
+    "description": "Sistema de gerenciamento da biblioteca",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jvicto-dev",
+            "email": "joaovicto12112001@gmail.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\":"source/"
+        }
+    },
+    "files":[
+        "source/Config.php"
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
